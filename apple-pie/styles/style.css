@@ -1,0 +1,60 @@
+html, body{
+    margin: 0;
+}
+
+/* Main */
+
+main {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+
+/*Header*/
+
+header {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+header span {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+header {
+    max-height: 600px;
+    overflow: hidden;
+}
+
+/* Content */
+#content {
+    display: grid;
+    gap: 10px;
+    padding: 5% 0;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#description {
+    text-align: center;
+    font-size: 25px;
+    max-width: 80%;
+    justify-self: center;
+}
+
+.info {justify-self: center;}
+
+#ingredients {border-top: solid 3px #b3b3b3;}
+
+ul {list-style: circle;}
+
+li {padding: 5px;}
+
+#directions {border-top: 3px solid gray;}
